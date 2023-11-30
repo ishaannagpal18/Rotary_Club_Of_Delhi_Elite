@@ -1,0 +1,108 @@
+html, body{
+	height: 100%;
+	/*width: 100%;*/
+}
+
+.img-container{
+	width: 100%;
+	height: 100%;
+	/*position: relative;
+	z-index: -999;*/
+}
+#mega-canvas{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+#img-canvas{
+	position: absolute;
+    left: 46.3%;
+    top: 23.9%;
+    background-color: white;
+    height: 48.6%;
+    width: 48.2%;
+}
+
+#video-stream {
+position: absolute;
+left: 6%;
+top: 29.4%;
+/* display: none; */
+height: 44.9%;
+width: 47.3%;
+z-index: 9;
+background-color: white;
+}
+
+.controller {
+position: absolute;
+z-index: 99;
+left: 16%;
+top: 22%;
+}
+.img1 img{
+	position: absolute;
+top: 10%;
+right: 1%;
+width: 10%;
+height: 10%;
+border: 3px solid #000;
+}
+.img2 img{
+	position: absolute;
+top: 22%;
+right: 1%;
+width: 10%;
+height: 10%;
+border: 3px solid #000;
+}
+
+
+@media only screen and (max-width: 900px) {
+	/*.controller > button{
+		width: 25px;
+	}*/
+}
+@media (max-height: 350px){
+	.img-container {
+		position: absolute;
+		left: 5%
+}
+#mega-canvas {
+width: 90%;
+}
+#video-stream {
+left: 5.3%;
+width: 42.6%;
+}
+html, body {
+height: 100%;
+background: black;
+}
+.img1 img {
+position: absolute;
+top: 10%;
+right: 1%;
+width: 7%;
+height: 11%;
+border: 2px solid #000;
+z-index: 1;
+}
+.img2 img {
+position: absolute;
+top: 22%;
+right: 1%;
+width: 7%;
+height: 11%;
+border: 2px solid #000;
+z-index: 1;
+}
+.controller {
+position: absolute;
+z-index: 99;
+left: 16%;
+top: 20%;
+height: 7%;
+}
+}

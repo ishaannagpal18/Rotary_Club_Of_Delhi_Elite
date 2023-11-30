@@ -1,0 +1,8 @@
+@media (max-width: 991px){
+.navbar ul {
+  display: flex;
+}
+.navbar {
+padding: 0 8% ;
+}
+}

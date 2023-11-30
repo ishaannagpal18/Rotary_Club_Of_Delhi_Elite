@@ -1,0 +1,170 @@
+{% extends 'layouts.html' %}
+{% load static %}
+{% block title %}
+About Us
+{% endblock %}
+{% block style %}
+<style>
+  #header.header-transparent {
+  background: rgba(0, 0, 0, 1);
+  }
+  .section-title{
+    padding-top: 5%;
+  }
+  html{
+    background-color: #14151c;
+  }
+</style>
+{% endblock %}
+{% block content %}
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container">
+
+    <div class="section-title" data-aos="zoom-out">
+      <h2>About</h2>
+      <p>Who we are</p>
+    </div>
+
+    <div class="row content" data-aos="fade-up">
+      <div class="col-lg-6">
+        <p>
+          <b>Rotary Club of Delhi Elite</b> was chartered in the rotary year 2018-19 under the guidance of District Governor (2018-19) Rtn. Vinay Bhatia Ji.<br><br> RC Delhi Elite was the first Rotary Club, chartered by a bunch of Rotaractors who have been working for the Rotaract Movement for several years. With their dedication towards the organisation, they chartered Delhi Elite and gathered an effective and hard working team to build a stronger root of this new club.<br> This club defines how the Rotaract fraternity can be efficient Rotarians.
+        </p>
+
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0">
+        <p>
+          Goals of Rotary of Delhi Elite:
+        </p>
+        <ul>
+          <li><i class="ri-check-double-line"></i> <b>Business Networking:</b> The club is formed out of young entrepreneurs and working professionals. Building networks for growth and development is one of the goals.</li>
+          <li><i class="ri-check-double-line"></i> <b>Social Work:</b> Coming from a strong Rotaract background, it’s members also focus on delivering sustainable projects.</li>
+          <li><i class="ri-check-double-line"></i> <b>Fellowship:</b> Since it’s a new club, the members focus on creating a strong bond among the members since its inception.</li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+
+<!-- ======= Features Section ======= -->
+<section id="features" class="features">
+  <div class="container">
+
+    <ul class="nav nav-tabs row d-flex">
+      <li class="nav-item col-3" data-aos="zoom-in">
+        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+          <i class="ri-gps-line"></i>
+          <h4 class="d-none d-lg-block">Project VRAKSH</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+        <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+          <i class="ri-body-scan-line"></i>
+          <h4 class="d-none d-lg-block">Project Bichhauna</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+        <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+          <i class="ri-sun-line"></i>
+          <h4 class="d-none d-lg-block">Project SWACHH</h4>
+        </a>
+      </li>
+      <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+          <i class="ri-store-line"></i>
+          <h4 class="d-none d-lg-block">Donation Drives</h4>
+        </a>
+      </li>
+    </ul>
+
+    <div class="tab-content" data-aos="fade-up">
+      <div class="tab-pane active show" id="tab-1">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <h3>A Virtual Education Drive</h3>
+            <p class="fst-italic">
+              During the peak lockdown period, our club conducted a 2 month Education Drive on a virtual platform. We identified underprivileged students who are facing difficulties in their academics because of online classes. We gave them special one-on- one attention and taught the following things:
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Subjects like Maths, English and Hindi to the students of class 5th to 9th. </li>
+              <li><i class="ri-check-double-line"></i> Extra curricular activities like Art and Craft and Dance for the students of Teach For India of classes 4th and 5th conducted on alternate days.</li>
+              <li><i class="ri-check-double-line"></i> English Speaking to students of age 16-18 years who were struggling to communicate in English if they went for job interviews.The students showed enthusiastic participation and the results came out to be great.</li>
+            </ul>
+            <p>
+              Approximately more than 50 underprivileged children were catered in this project. The NGOs who did not have internet access were provided the same during their classes for easy access.
+            </p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="{% static 'img/vraksh.jpeg'%}" alt="" class="img-fluid fluid">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="tab-2">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <h3>An Initiative in collaboration with Divya Vardan Charitable Trust</h3>
+
+            <p class="fst-italic">
+              Delhi Elite supports Divya Vardaan Charitable Trust. They make handmade bichhaunas (mattresses) using waste cloth material gathered from textile industries. The entire process is handmade and the result comes out to be amazing.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Our club helps them to reach the needy people who were actually sleeping on footpaths in chilling winters. </li>
+              <li><i class="ri-check-double-line"></i> First two donation drives took place in the month of December, when winters are at peak and people are actually freezing on the roads. </li>
+              <li><i class="ri-check-double-line"></i> We distributed approximately 50 handmade bichhaunas in 2 donation drives.</li>
+              <p>To support this initiative, you can contact us on this website and we will help you connect with the trust.</p>
+            </ul>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="{% static 'img/bichona-2.jpg'%}" alt="" class="img-fluid fluid">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="tab-3">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <h3>Awareness Campaign for WASH and WINS</h3>
+            <p class="fst-italic">
+              During the peak lockdown period, hygiene and sanitation was the need of the hour. Since schools were shut, WASH and WINS was on hold for quite long.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> We came up with Project SWACHH on a virtual platform for the awareness of new norms of hygiene and sanitation. </li>
+              <li><i class="ri-check-double-line"></i> We connected with 2 NGOs and government schools virtually wherein all the students joined us from their devices.</li>
+              <li><i class="ri-check-double-line"></i> The session comprised of WASH and WINS awareness videos and ways to wash hands properly by making it interesting.</li>
+            </ul>
+            <p >
+              The students engaged virtually quite well and the videos and activities made it even more interesting for them to attend. They learnt the importance of hygiene during this global pandemic and implemented the same.
+            </p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="{% static 'img/swachh1.jpeg'%} " alt="" class="img-fluid fluid">
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="tab-4">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <h3>Multiple Donation Drives Across Delhi-NCR</h3>
+
+            <p class="fst-italic">
+              The club has also conducted multiple donation drives to distribute stationery, food items, sanitary pads, diwali sweets etc. to various NGOs and on street as well.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> On the occasion of Diwali, we distributed sweets and stationery as per the requirement of an NGO in Kalkaji.</li>
+              <li><i class="ri-check-double-line"></i> Distributed Sanitary pads and nivea deodorants to 100 females Shanti Sahyog Centre.</li>
+              <li><i class="ri-check-double-line"></i> On the occasion of Christmas, we donated 50 blankets to an NGO in Janakpuri as per their requirement. </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="{% static 'img/donation.jpg'%}" alt="" class="img-fluid fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Features Section -->
+
+{% endblock %}
